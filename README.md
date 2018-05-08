@@ -1,4 +1,4 @@
 # PurplePlayerPro
 Purple Player Pro
 
-Rebuilding !!
+Rebuilding !! Source code will be available soon again.
