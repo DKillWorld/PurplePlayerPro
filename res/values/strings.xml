@@ -1,0 +1,157 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name" translatable="false">Purple Player</string>
+    <string name="title_activity_navigation" translatable="false">NavigationActivity</string>
+
+    <string-array name="transition_selector">
+        <item>Default</item>
+        <item>Accordion</item>
+        <item>BackgroundToForeground</item>
+        <!--<item>CubeIn</item>-->
+        <item>CubeOut</item>
+        <item>DepthPage</item>
+        <!--<item>FlipHorizontal</item>-->
+        <item>ForegroundToBackground</item>
+        <item>RotateDown</item>
+        <item>RotateUp</item>
+        <!--<item>DrawFromBack</item>-->
+        <!--<item>Stack</item>-->
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>ZoomOutSlide</item>
+    </string-array>
+
+    <string-array name="transition_selector_values" translateble="false">
+        <item>Default</item>
+        <item>Accordion</item>
+        <item>BackgroundToForeground</item>
+        <!--<item>CubeIn</item>-->
+        <item>CubeOut</item>
+        <item>DepthPage</item>
+        <!--<item>FlipHorizontal</item>-->
+        <item>ForegroundToBackground</item>
+        <item>RotateDown</item>
+        <item>RotateUp</item>
+        <!--<item>DrawFromBack</item>-->
+        <!--<item>Stack</item>-->
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>ZoomOutSlide</item>
+    </string-array>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="accent_color_select">Accent Color</string>
+    <string name="primary_color_select">Primary Color</string>
+
+    <string name="key_use_quicklyric" translatable="false">QuickLyric_Key</string>
+    <!--<string name="appwidget_text">EXAMPLE</string>-->
+    <!--<string name="add_widget">Add widget</string>-->
+
+    <string name="select_song">Select a Song</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="genres">Genres</string>
+    <string name="playlists">Playlists</string>
+    <string name="settings">Settings</string>
+    <string name="rateUs">Rate Us</string>
+    <string name="upgradeToPurplePlayerPro">Upgrade to Purple Player Pro</string>
+    <string name="alreadyProUser">You are already a Pro User !!</string>
+    <string name="info">Info</string>
+    <string name="ok">OK</string>
+    <string name="library">Library</string>
+    <string name="emptyPlaylist">Empty playlist !! \nSelect a Song</string>
+    <string name="noEqualierFound">No Equalizer Found !!</string>
+    <string name="welcome">Welcome!!</string>
+    <string name="oneOrMorePermissionDenied">One or more permission is denied !!</string>
+
+    <string name="about">About</string>
+
+    <string name="nowPlaying">Now Playing</string>
+    <string name="nothingIsPlaying">Nothing is playing !!</string>
+    <string name="repeatOn">Repeat ON!!</string>
+    <string name="repeatOff">Repeat OFF!!</string>
+    <string name="shuffleOn">Shuffle ON!!</string>
+    <string name="shuffleOff">Shuffle OFF!!</string>
+    <string name="checkingForLyrics">Checking for Lyrics</string>
+    <string name="pleaseWait">Please Wait</string>
+    <string name="oops">Oops !!</string>
+    <string name="noLyricsFoundTryQuickLyric">No lyrics found on server. \nTry QuickLyric.</string>
+    <string name="okay">Okay</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="great">Great</string>
+    <string name="restartAppIfThemeChanged">Restart the app if you switched from dark to light actionbar theme or vice-versa !!</string>
+    <string name="faq">Frequently Asked Questions</string>
+
+    <string name="sendFeedback">Send Feedback</string>
+    <string name="showLyrics">Show Lyrics</string>
+    <string name="equalizer">Equalizer</string>
+
+    <string name="UI">UI</string>
+    <string name="changePrimaryColor">Change the primary color of app</string>
+    <string name="changeAccentColor">Change the accent color of app</string>
+    <string name="primaryColor">Primary color</string>
+    <string name="accentColor">Accent color</string>
+    <string name="player">Player</string>
+    <string name="setAlbumartAsBackground">Set albumart as now playing background</string>
+    <string name="albumartAsBackgound">Albumart as background</string>
+    <string name="inversed">Inversed</string>
+    <string name="normal">Normal</string>
+    <string name="inverseSwipeControl">Next/Prev swipe controls</string>
+    <string name="quickLyric" translatable="false">QuickLyric</string>
+    <string name="defaultServer" translatable="false">Default</string>
+    <string name="lyricsServer">Lyrics server</string>
+    <string name="privacy">Privacy</string>
+    <string name="forImprovement">For improvement of product</string>
+    <string name="sendAnynomousUsageDate">Send anonymous usage data</string>
+    <string name="misc">Miscellaneous</string>
+    <string name="helpInTranslation">Help in translating Purple Player!</string>
+    <string name="restartApp">Ads removed for today! Restart app.</string>
+    <string name="later">Later</string>
+    <string name="removeAdsForDay">Watch video ad and get ad-free experience for today.</string>
+    <string name="changeTransition" translatable="false">Transition effect</string>
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="add_playlist">New Playlist</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove_playlist">Remove playlist</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="showTimer">Show Timer</string>
+    <string name="playlist_added">Playlist added</string>
+    <string name="emptyNameNotAllowed">Empty name not allowed</string>
+    <string name="removed">Removed</string>
+    <string name="playing_next">Playing next</string>
+    <string name="added_to_queue">Added to queue</string>
+    <string name="added_to_playlist">Added to playlist</string>
+    <string name="stooped_playback_by_sleeptimer">Stopped Music Playback by Sleep Timer</string>
+    <string name="you_are_free_of_ads_till">You are free of ads till</string>
+    <string name="credits">Credits</string>
+    <string name="simple_tag_editor">Simple Tag Editor</string>
+    <string name="reset">Reset</string>
+    <string name="requires_version6"><![CDATA[Requires Android Version >= 6.0 !!]]></string>
+    <string name="folders">Folders</string>
+    <string name="fetching_from_folder_wait">Fetching data from folder.. Just a minute !!</string>
+    <string name="remove_ads_for_day">Remove ads for a day</string>
+    <string name="submit">Submit</string>
+    <string name="thanks_for_rating_negative">Thanks for rating. Help us improve by providing feedback.</string>
+    <string name="sleep_timer_set_successfully">Sleep Timer Set Successfully</string>
+    <string name="sleep_timer_cancelled">Sleep Timer Cancelled</string>
+    <string name="check_faq_section">Check the FAQ section</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="play_next">Play next</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="grid">Grid</string>
+    <string name="list">List</string>
+    <string name="show_tracks_as">Show tracks as</string>
+    <string name="animation">Animation</string>
+    <string name="animate_albumart">Animate albumart</string>
+    <string name="animate_playpause_button">Animate playpause button</string>
+
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">"настройки"</string>
+
+    <string name="accent_color_select">"Цвет акцента"</string>
+    <string name="primary_color_select">"Основной цвет"</string>
+
+    <string name="select_song">"Выберите песню"</string>
+    <string name="songs">"Треки"</string>
+    <string name="albums">"Альбомы"</string>
+    <string name="artists">"Исполнители"</string>
+    <string name="genres">"Жанры"</string>
+    <string name="playlists">"Плейлисты"</string>
+    <string name="settings">"настройки"</string>
+    <string name="rateUs">"Оцените нас"</string>
+    <string name="upgradeToPurplePlayerPro">"Обновление до Purple Player Pro"</string>
+    <string name="alreadyProUser">"Вы уже являетесь профессиональным пользователем!"</string>
+    <string name="info">"Информация"</string>
+    <string name="ok">"ОК"</string>
+    <string name="library">"Library"</string>
+    <string name="emptyPlaylist">"Пустой плейлист !! \ nВыберите песню"</string>
+    <string name="noEqualierFound">"Нет эквалайзера!"</string>
+    <string name="welcome">"Добро пожаловать"</string>
+    <string name="oneOrMorePermissionDenied">"Разрешено одно или несколько разрешений !!"</string>
+
+    <string name="about">"Около"</string>
+
+    <string name="nowPlaying">"Сейчас играет"</string>
+    <string name="nothingIsPlaying">"Ничто не играет!"</string>
+    <string name="repeatOn">"Повторите ВКЛ. !!"</string>
+    <string name="repeatOff">"Повтор выкл."</string>
+    <string name="shuffleOn">"Накидывать"</string>
+    <string name="shuffleOff">"Сбрасывать"</string>
+    <string name="checkingForLyrics">"Проверка на тексты песен"</string>
+    <string name="pleaseWait">"Пожалуйста, подождите"</string>
+    <string name="oops">"ОЙ."</string>
+    <string name="noLyricsFoundTryQuickLyric">"На сервере нет текста. \ nПопробуйте QuickLyric."</string>
+    <string name="okay">"Окей"</string>
+    <string name="lyrics">"Тексты песен"</string>
+    <string name="great">"Отличное качество"</string>
+    <string name="restartAppIfThemeChanged">"Перезагрузите приложение, если вы переключились с темной или легкой темы или наоборот!"</string>
+    <string name="faq">"Частые вопросы"</string>
+
+    <string name="sendFeedback">"Отправить отзыв"</string>
+    <string name="showLyrics">"Показать текст"</string>
+    <string name="equalizer">"балансир"</string>
+
+    <string name="UI">"Интерфейс пользователя"</string>
+    <string name="changePrimaryColor">"Изменение основного цвета приложения"</string>
+    <string name="changeAccentColor">"Изменение цвета акцента приложения"</string>
+    <string name="primaryColor">"Основной цвет"</string>
+    <string name="accentColor">"Цвет акцента"</string>
+    <string name="player">"Обзор"</string>
+    <string name="setAlbumartAsBackground">"Установите альбом, как теперь играющий фон"</string>
+    <string name="albumartAsBackgound">"Альбом в качестве фона"</string>
+    <string name="inversed">"инвертированием"</string>
+    <string name="normal">"Нормальный"</string>
+    <string name="inverseSwipeControl">"Обратное управление салфеткой"</string>
+    <string name="lyricsServer">"Текстовый сервер"</string>
+    <string name="privacy">"Приватность"</string>
+    <string name="forImprovement">"Для улучшения продукта"</string>
+    <string name="sendAnynomousUsageDate">"Отправить анонимные данные использования"</string>
+    <string name="misc">"Прочее"</string>
+    <string name="helpInTranslation">"Помощь в переводе Purple Player!"</string>
+    <string name="restartApp">"Объявления удалены на сегодня! Перезапустить приложение."</string>
+    <string name="later">"Позже"</string>
+    <string name="removeAdsForDay">"Просмотрите видеообъявление и получите бесплатный контент на сегодняшний день."</string>
+
+
+</resources>

@@ -1,0 +1,126 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="4dp"
+            app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat"/>
+
+
+        <LinearLayout
+
+            android:id="@+id/root_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="?attr/actionBarSize"
+            tools:context="com.dv.apps.purpleplayer.MainActivity">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tab_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:tabMode="scrollable"
+                        app:tabTextColor="#BBFFFFFF"
+                        app:tabSelectedTextColor="@color/white">
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"/>
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"/>
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"/>
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"/>
+
+                        <android.support.design.widget.TabItem
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"/>
+
+                    </android.support.design.widget.TabLayout>
+
+                </android.support.v4.view.ViewPager>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/tvMainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="?attr/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+                <ImageView
+                    android:id="@+id/tvMainImageView"
+                    android:layout_width="54dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/tvMain"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:fontFamily="sans-serif-condensed"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/select_song"
+                    android:textColor="?android:textColorSecondaryInverse"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/md_black_1000"
+                    android:shadowRadius="10" />
+
+                <ImageButton
+                    android:id="@+id/playPauseMain"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:paddingRight="8dp"
+                    android:shadowColor="@color/md_black_1000"
+                    android:shadowRadius="10"
+                    android:src="@drawable/ic_play_arrow_white_24dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>

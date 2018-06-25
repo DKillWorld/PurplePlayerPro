@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Q. Is this project open-source? \nA: Yes. https://github.com/DKillWorld/PurplePlayerPro \n\n
+    Q. How can I see Now Playing songs list? \nA: Just swipe down on albumart, as easy as that.\n\n
+    Q. How can I edit tags? \nA: Just swipe up on albumart.\n\n
+    Q. After changing app primary color, all songs disappeared. What to do? \nA: This happens when you change from dark actionbar theme to light or vice-versa. However, a quick restart will fix this issue. \n\n
+    Q. I found a bug. Where/How to report? \nA: Shoot an email describing the bug and steps to reproduce it.\n\n
+    Q. Why should I upgrade to Purple Player Pro? \nA: To get bunch of extra features and buy me a cup of coffee. ;)\n\n
+    Q. I have set sleep timer but its not stopping music playback at selected time. \nA: Sleep timer will not be triggered if you are using the app and 'stopping music playback' will be post-poned until you quit the app.\n\n
+    Q. I want to help translating app to my local language. How to? \nA: The project is open source. Go ahead : https://github.com/DKillWorld/PurplePlayerPro\n\n
+    Q. I have some other question outside of FAQ. \nA: Email us briefly describing you question. We will reply ASAP."
+        android:textColor="?colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

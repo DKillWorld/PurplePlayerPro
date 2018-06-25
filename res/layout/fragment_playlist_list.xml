@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dv.apps.purpleplayer.ListFragments.PlaylistListFragment">
+
+    <ListView
+        android:id="@+id/fragment_playlist_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+        />
+
+    <ListView
+        android:id="@+id/fragment_playlist_list_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+        android:visibility="gone"
+        />
+
+    <GridView
+        android:id="@+id/fragment_playlist_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"
+        android:visibility="gone"/>
+
+</FrameLayout>

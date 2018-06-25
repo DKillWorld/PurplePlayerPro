@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search_white"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/equilizer"
+        android:title="@string/equalizer"
+        android:orderInCategory="200"/>
+    <item android:id="@+id/sleep_timer"
+        android:title="@string/sleep_timer"
+        android:orderInCategory="300"/>
+    <item android:id="@+id/close"
+        app:showAsAction="always"
+        android:visible="false"
+        android:icon="@drawable/ic_close_white_24dp"
+        android:orderInCategory="700"/>
+</menu>

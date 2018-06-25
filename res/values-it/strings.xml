@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">"Settings"</string>
+
+    <string name="accent_color_select">"Risalto colore"</string>
+    <string name="primary_color_select">"Colore primario"</string>
+
+    <string name="select_song">"Seleziona una canzone"</string>
+    <string name="songs">"Brani"</string>
+    <string name="albums">"Album"</string>
+    <string name="artists">"artisti"</string>
+    <string name="genres">"Generi"</string>
+    <string name="playlists">"Playlist"</string>
+    <string name="settings">"Settings"</string>
+    <string name="rateUs">"tasso degli Stati Uniti"</string>
+    <string name="upgradeToPurplePlayerPro">"Passa a Purple Player Pro"</string>
+    <string name="alreadyProUser">"Sei già un utente Pro !!"</string>
+    <string name="info">"Info"</string>
+    <string name="ok">"OK"</string>
+    <string name="library">"Libreria"</string>
+    <string name="emptyPlaylist">"Playlist vuota !! \ nSeleziona una canzone"</string>
+    <string name="noEqualierFound">"Nessun equalizzatore trovato !!"</string>
+    <string name="welcome">"Benvenuto"</string>
+    <string name="oneOrMorePermissionDenied">"Uno o più permessi sono negati !!"</string>
+
+    <string name="about">"Di"</string>
+
+    <string name="nowPlaying">"In riproduzione"</string>
+    <string name="nothingIsPlaying">"Niente sta giocando !!"</string>
+    <string name="repeatOn">"Ripetere"</string>
+    <string name="repeatOff">"Ripeti disattivato"</string>
+    <string name="shuffleOn">"Shuffle On"</string>
+    <string name="shuffleOff">"Shuffle Off"</string>
+    <string name="checkingForLyrics">"Controllo dei testi"</string>
+    <string name="pleaseWait">"Attendere prego.."</string>
+    <string name="oops">"Ops!"</string>
+    <string name="noLyricsFoundTryQuickLyric">"Nessun testo trovato sul server. \ nProva QuickLyric."</string>
+    <string name="okay">"Va bene"</string>
+    <string name="lyrics">"Testi"</string>
+    <string name="great">"Ottima"</string>
+    <string name="restartAppIfThemeChanged">"Riavvia l'app se passassi dal tema della barra delle azioni scuro alla luce o viceversa !!"</string>
+    <string name="faq">"Domande frequenti"</string>
+
+    <string name="sendFeedback">"Invia feedback"</string>
+    <string name="showLyrics">"Mostra testi"</string>
+    <string name="equalizer">"Equalizzatore"</string>
+
+    <string name="UI">"UI"</string>
+    <string name="changePrimaryColor">"Cambia il colore principale dell'app"</string>
+    <string name="changeAccentColor">"Cambia il colore dell'accento dell'app"</string>
+    <string name="primaryColor">"Colore primario"</string>
+    <string name="accentColor">"Risalto colore"</string>
+    <string name="player">"Io"</string>
+    <string name="setAlbumartAsBackground">"Imposta albumart come ora in sottofondo"</string>
+    <string name="albumartAsBackgound">"Albumart come sfondo"</string>
+    <string name="inversed">"Inversed"</string>
+    <string name="normal">"Normale"</string>
+    <string name="inverseSwipeControl">"Controlli di scorrimento inverso"</string>
+    <string name="lyricsServer">"Lyrics server"</string>
+    <string name="privacy">"Privacy"</string>
+    <string name="forImprovement">"Per il miglioramento del prodotto"</string>
+    <string name="sendAnynomousUsageDate">"Invia dati di utilizzo anonimi"</string>
+    <string name="misc">"Varie"</string>
+    <string name="helpInTranslation">"Aiuto nella traduzione di Purple Player!"</string>
+    <string name="restartApp">"Annunci rimossi per oggi! Riavvia app."</string>
+    <string name="later">"Dopo"</string>
+    <string name="removeAdsForDay">"Guarda gli annunci video e ottieni un'esperienza senza pubblicità per oggi."</string>
+
+
+</resources>

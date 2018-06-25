@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory android:title="@string/UI">
+        <!--<CheckBoxPreference-->
+            <!--android:key="BaseTheme"-->
+            <!--android:title="Base theme"-->
+            <!--android:summaryOff="Light"-->
+            <!--android:summaryOn="Dark"/>-->
+        <Preference
+            android:key="primary_color"
+            android:summary="@string/changePrimaryColor"
+            android:title="@string/primaryColor" />
+        <Preference
+            android:key="accent_color"
+            android:summary="@string/changeAccentColor"
+            android:title="@string/accentColor"/>
+        <CheckBoxPreference
+            android:key="show_track_as"
+            android:defaultValue="true"
+            android:summaryOn="@string/grid"
+            android:summaryOff="@string/list"
+            android:title="@string/show_tracks_as"/>
+        <!--<CheckBoxPreference-->
+            <!--android:key="auto_color"-->
+            <!--android:title="Auto change theme with albumart"-->
+            <!--android:summaryOn="Auto"-->
+            <!--android:summaryOff="Off"-->
+            <!--android:defaultValue="false"/>-->
+
+
+        <!--<Preference-->
+        <!--android:key="playback_speed"-->
+        <!--android:title="Playback Speed"-->
+        <!--android:summary="Change speed of player"/>-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/animation">
+        <CheckBoxPreference
+            android:key="Animate_Albumart"
+            android:title="@string/animate_albumart"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="Animate_Playpause"
+            android:title="@string/animate_playpause_button"
+            android:defaultValue="true"/>
+        <ListPreference
+            android:key="transition_effect"
+            android:title="@string/changeTransition"
+            android:summary="@string/defaultServer"
+            android:entries="@array/transition_selector"
+            android:entryValues="@array/transition_selector_values"
+            android:defaultValue="Default"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/player">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Use_Root_Background"
+            android:summary="@string/setAlbumartAsBackground"
+            android:title="@string/albumartAsBackgound" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Inverse_Swipe"
+            android:summaryOn="@string/inversed"
+            android:summaryOff="@string/normal"
+            android:title="@string/inverseSwipeControl" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="Show_Timer"
+            android:title="@string/showTimer" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/lyrics">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_use_quicklyric"
+            android:summaryOff="@string/defaultServer"
+            android:summaryOn="@string/quickLyric"
+            android:title="@string/lyricsServer" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/privacy">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="Anonymous_Data"
+            android:summary="@string/forImprovement"
+            android:title="@string/sendAnynomousUsageDate" />
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="Experimental Features\n(Uncheck if app crashes)">-->
+
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/misc">
+        <Preference
+            android:icon="@drawable/ic_help_and_faq"
+            android:key="FAQ"
+            android:title="@string/faq" />
+        <Preference
+            android:icon="@drawable/ic_drawer_support_development"
+            android:key="Rate_Us"
+            android:title="@string/rateUs" />
+        <Preference
+            android:icon="@drawable/ic_drawer_buypro"
+            android:key="Buy_Pro"
+            android:title="@string/upgradeToPurplePlayerPro" />
+        <Preference
+            android:key="Translation_Help"
+            android:title="@string/helpInTranslation" />
+    </PreferenceCategory>
+</PreferenceScreen>

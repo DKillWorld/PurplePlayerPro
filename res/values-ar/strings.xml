@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">"إعدادات"</string>
+
+    <string name="accent_color_select">"لون اللكنة"</string>
+    <string name="primary_color_select">"لون أصلي"</string>
+
+    <string name="select_song">"حدد أغنية"</string>
+    <string name="songs">"الأغاني"</string>
+    <string name="albums">"ألبومات"</string>
+    <string name="artists">"الفنانين"</string>
+    <string name="genres">"الأنواع"</string>
+    <string name="playlists">"قوائم التشغيل"</string>
+    <string name="settings">"إعدادات"</string>
+    <string name="rateUs">"قيمنا"</string>
+    <string name="upgradeToPurplePlayerPro">"الترقية إلى الأرجواني لاعب برو"</string>
+    <string name="alreadyProUser">"كنت بالفعل برو العضو !!"</string>
+    <string name="info">" معلومات"</string>
+    <string name="ok">"حسنا"</string>
+    <string name="library">"المكتبة"</string>
+    <string name="emptyPlaylist">"قائمة التشغيل فارغة !! \ n تحديد أغنية"</string>
+    <string name="noEqualierFound">"لا التعادل وجدت !!"</string>
+    <string name="welcome">"مرحبًا! "</string>
+    <string name="oneOrMorePermissionDenied">"تم رفض إذن واحد أو أكثر !!"</string>
+
+    <string name="about">"حول"</string>
+
+    <string name="nowPlaying">"يتم التشغيل الآن"</string>
+    <string name="nothingIsPlaying">"لا شيء يلعب !!"</string>
+    <string name="repeatOn">"كرر على !!"</string>
+    <string name="repeatOff">"كرر قبالة !!"</string>
+    <string name="shuffleOn">"خلط ورق اللعب علىX"</string>
+    <string name="shuffleOff">"تملص"</string>
+    <string name="checkingForLyrics">"البحث عن كلمات"</string>
+    <string name="pleaseWait">"
+ يرجي الإنتظار
+"</string>
+    <string name="oops">"وجه الفتاة"</string>
+    <string name="noLyricsFoundTryQuickLyric">"لم يتم العثور على كلمات على الخادم. \ n تري كيكليريك."</string>
+    <string name="okay">"حسنا.  "</string>
+    <string name="lyrics">"كلمات الاغنية"</string>
+    <string name="great">"جيد جدا"</string>
+    <string name="restartAppIfThemeChanged">"إعادة تشغيل التطبيق إذا كنت تحولت من الظلام إلى موضوع أكتيونبار ضوء أو العكس بالعكس !!"</string>
+    <string name="faq">"الأسئلة الشائعة"</string>
+
+    <string name="sendFeedback">"إرسال تعليقات"</string>
+    <string name="showLyrics">"عرض الأغاني"</string>
+    <string name="equalizer">"التعادل"</string>
+
+    <string name="UI">"UI"</string>
+    <string name="changePrimaryColor">"تغيير اللون الأساسي من التطبيق"</string>
+    <string name="changeAccentColor">"تغيير لون لهجة من التطبيق"</string>
+    <string name="primaryColor">"لون أصلي"</string>
+    <string name="accentColor">"لون اللكنة"</string>
+    <string name="player">"لاعب"</string>
+    <string name="setAlbumartAsBackground">"تعيين ألبومارت كما يلعب الآن الخلفية"</string>
+    <string name="albumartAsBackgound">"ألبارت كخلفية"</string>
+    <string name="inversed">"المقلوب"</string>
+    <string name="normal">"عادي"</string>
+    <string name="inverseSwipeControl">"عناصر تحكم انتقاد معكوس"</string>
+    <string name="lyricsServer">"خادم كلمات"</string>
+    <string name="privacy">"الإجمالية"</string>
+    <string name="forImprovement">"لتحسين المنتج"</string>
+    <string name="sendAnynomousUsageDate">"إرسال بيانات استخدام مجهولة المصدر"</string>
+    <string name="misc">"متنوعة"</string>
+    <string name="helpInTranslation">"مساعدة في ترجمة بيربل بلاير!"</string>
+    <string name="restartApp">"الإعلانات التي تمت إزالتها لهذا اليوم! إعادة تشغيل التطبيق."</string>
+    <string name="later">"في وقت لاحق"</string>
+    <string name="removeAdsForDay">"شاهد إعلان الفيديو واحصل على تجربة خالية من الإعلانات لهذا اليوم."</string>
+
+
+</resources>

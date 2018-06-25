@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dv.apps.purpleplayer.AboutActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/icon_about"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/ic_launcher_web"
+                app:layout_constraintBottom_toTopOf="@+id/name_about"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/icon_about"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/app_name"
+                android:textColor="@android:color/black"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/version_about"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintLeft_toLeftOf="@+id/icon_about"
+                app:layout_constraintRight_toRightOf="@+id/icon_about" />
+
+            <TextView
+                android:id="@+id/version_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_about"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/blank_view"
+                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintLeft_toLeftOf="@+id/name_about"
+                app:layout_constraintRight_toRightOf="@+id/name_about"
+                tools:text="version number" />
+
+            <View
+                android:id="@+id/blank_view"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_below="@id/version_about"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/black"
+                app:layout_constraintBottom_toTopOf="@+id/contact_us"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/blank_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="140dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/sendFeedback"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toTopOf="@+id/adView"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <ImageButton
+                android:id="@+id/contact_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/contact_us"
+                android:layout_alignRight="@+id/contact_us"
+                android:layout_below="@+id/contact_us"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/ic_email_black_24dp"
+                android:padding="16dp"
+                app:layout_constraintRight_toRightOf="@+id/contact_us"
+                app:layout_constraintTop_toBottomOf="@+id/contact_us" />
+
+            <ImageButton
+                android:id="@+id/fb_message_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/contact_us"
+                android:layout_alignStart="@+id/contact_us"
+                android:layout_below="@+id/contact_us"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/ic_chat_black_24dp"
+                android:padding="16dp"
+                app:layout_constraintLeft_toLeftOf="@+id/contact_us"
+                app:layout_constraintTop_toTopOf="@+id/contact_icon" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:visibility="invisible"
+                ads:layout_constraintBottom_toBottomOf="parent"
+                ads:layout_constraintLeft_toLeftOf="parent"
+                ads:layout_constraintRight_toRightOf="parent">
+
+            </com.google.android.gms.ads.AdView>
+
+            <Button
+                android:id="@+id/creditsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="84dp"
+                android:text="Credits"
+                android:textColor="@color/md_white_1000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contact_us" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</LinearLayout>

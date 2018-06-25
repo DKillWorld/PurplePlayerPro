@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">"設定"</string>
+
+    <string name="accent_color_select">"アクセントの色"</string>
+    <string name="primary_color_select">"原色"</string>
+
+    <string name="select_song">"曲を選択"</string>
+    <string name="songs">"曲"</string>
+    <string name="albums">"アルバム"</string>
+    <string name="artists">"アーティスト"</string>
+    <string name="genres">"ジャンル"</string>
+    <string name="playlists">"プレイリスト"</string>
+    <string name="settings">"設定"</string>
+    <string name="rateUs">"レート"</string>
+    <string name="upgradeToPurplePlayerPro">"Purple Player Proにアップグレードする"</string>
+    <string name="alreadyProUser">"あなたはすでにプロユーザーです！"</string>
+    <string name="info">"情報"</string>
+    <string name="ok">"を接"</string>
+    <string name="library">"書棚"</string>
+    <string name="emptyPlaylist">"空のプレイリスト!! \ nソングを選択"</string>
+    <string name="noEqualierFound">"イコライザーが見つかりませんでした！"</string>
+    <string name="welcome">"ようこそ！"</string>
+    <string name="oneOrMorePermissionDenied">"1つまたは複数の許可が拒否されました。"</string>
+
+    <string name="about">"概要"</string>
+
+    <string name="nowPlaying">"nowplaying"</string>
+    <string name="nothingIsPlaying">"何も演奏されていません！"</string>
+    <string name="repeatOn">"繰り返す！"</string>
+    <string name="repeatOff">"繰り返すOFF！"</string>
+    <string name="shuffleOn">"オンシャッフル"</string>
+    <string name="shuffleOff">"オフシャッフル"</string>
+    <string name="checkingForLyrics">"歌詞の確認"</string>
+    <string name="pleaseWait">"お待ちください"</string>
+    <string name="oops">"おおっと。。。！！！"</string>
+    <string name="noLyricsFoundTryQuickLyric">"サーバー上で歌詞が見つかりません。 \ n QuickLyricにお問い合わせください。"</string>
+    <string name="okay">"オーケー"</string>
+    <string name="lyrics">"作詞"</string>
+    <string name="great">"最大"</string>
+    <string name="restartAppIfThemeChanged">"あなたが暗いから軽いアクションバーのテーマにまたはその逆に切り替えた場合は、アプリを再起動してください！"</string>
+    <string name="faq">"よくある質問(FAQ)"</string>
+
+    <string name="sendFeedback">"感想を送る"</string>
+    <string name="showLyrics">"歌詞を表示する"</string>
+    <string name="equalizer">"イコライザ"</string>
+
+    <string name="UI">"UI"</string>
+    <string name="changePrimaryColor">"アプリの原色を変更する"</string>
+    <string name="changeAccentColor">"アプリのアクセントの色を変更する"</string>
+    <string name="primaryColor">"原色"</string>
+    <string name="accentColor">"アクセントの色"</string>
+    <string name="player">"P"</string>
+    <string name="setAlbumartAsBackground">"アルバムアートをバックグラウンドで演奏するように設定する"</string>
+    <string name="albumartAsBackgound">"背景としてのアルバムアート"</string>
+    <string name="inversed">"逆"</string>
+    <string name="normal">"標準"</string>
+    <string name="inverseSwipeControl">"反転スワイプコントロール"</string>
+    <string name="lyricsServer">"歌詞サーバー"</string>
+    <string name="privacy">"プライバシー"</string>
+    <string name="forImprovement">"製品の改善のため"</string>
+    <string name="sendAnynomousUsageDate">"匿名の使用データを送信する"</string>
+    <string name="misc">"その他"</string>
+    <string name="helpInTranslation">"紫色のプレイヤーの翻訳に役立ちます！"</string>
+    <string name="restartApp">"今日の広告は削除されました！アプリを再起動します。"</string>
+    <string name="later">"後で"</string>
+    <string name="removeAdsForDay">"ビデオ広告を見て、今日の広告無料体験を得る。"</string>
+
+
+</resources>

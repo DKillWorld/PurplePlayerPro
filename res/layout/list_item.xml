@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:maxLines="1"
+        app:layout_constraintTop_toTopOf="@+id/image_view"
+        tools:text="SongName"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/image_view"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/songDuration"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="right|center"
+        app:layout_constraintBottom_toBottomOf="@+id/songArtist"
+        android:maxLines="1"
+        tools:text="duration"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/songArtist"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        app:layout_constraintTop_toBottomOf="@+id/songName"
+        tools:text="artist"
+        app:layout_constraintLeft_toRightOf="@+id/image_view"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/songDuration"
+        android:layout_marginRight="8dp" />
+</android.support.constraint.ConstraintLayout>

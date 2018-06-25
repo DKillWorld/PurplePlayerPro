@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#502B64</color>
+    <color name="colorPrimaryDark">#3C204B</color>
+    <color name="colorAccent">#E65100</color>
+    <color name="purple">#89609E</color>
+    <color name="dark_purple">#212121</color>
+    <color name="white">#ffffff</color>
+
+    //Theme Bluegrey
+    <color name="primary_bluegrey">#607D8B</color>
+    <color name="primary_dark_bluegrey">#455A64</color>
+    <color name="primary_light_bluegrey">#CFD8DC</color>
+    <color name="accent_bluegrey">#9E9E9E</color>
+    <color name="primary_text_bluegrey">#212121</color>
+    <color name="secondary_text_bluegrey">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="text_color_primary">#212121</color>
+    <color name="text_color_secondary">#424242</color>
+
+    <color name="text_color_primary_dark">#FAFAFA</color>
+    <color name="text_color_secondary_dark">#EEEEEE</color>
+
+
+</resources>

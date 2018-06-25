@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">"设置"</string>
+
+    <string name="accent_color_select">"主颜色"</string>
+    <string name="primary_color_select">"原色"</string>
+
+    <string name="select_song">"选择一首歌曲"</string>
+    <string name="songs">"音乐"</string>
+    <string name="albums">"相册"</string>
+    <string name="artists">"艺术家"</string>
+    <string name="genres">"流派"</string>
+    <string name="playlists">"播放列表"</string>
+    <string name="settings">"设置"</string>
+    <string name="rateUs">"圈点"</string>
+    <string name="upgradeToPurplePlayerPro">"升级到Purple Player Pro"</string>
+    <string name="alreadyProUser">"你已经是专业用户了！"</string>
+    <string name="info">"信息"</string>
+    <string name="ok">"好"</string>
+    <string name="library">"图书馆"</string>
+    <string name="emptyPlaylist">"空播放列表！ \ n选择一首歌曲"</string>
+    <string name="noEqualierFound">"找不到均衡器！"</string>
+    <string name="welcome">"欢迎听讲。"</string>
+    <string name="oneOrMorePermissionDenied">"一个或多个权限被拒绝！"</string>
+
+    <string name="about">"关于"</string>
+
+    <string name="nowPlaying">"正在播放"</string>
+    <string name="nothingIsPlaying">"什么都没玩！"</string>
+    <string name="repeatOn">"重复开启！"</string>
+    <string name="repeatOff">"重复关闭！"</string>
+    <string name="shuffleOn">"随机播放"</string>
+    <string name="shuffleOff">"随机播放关闭"</string>
+    <string name="checkingForLyrics">"检查歌词"</string>
+    <string name="pleaseWait">"请等一下！"</string>
+    <string name="oops">"哎呀！"</string>
+    <string name="noLyricsFoundTryQuickLyric">"在服务器上找不到歌词。 \ n试用QuickLyric。"</string>
+    <string name="okay">"嗯"</string>
+    <string name="lyrics">"歌词"</string>
+    <string name="great">"非常好。"</string>
+    <string name="restartAppIfThemeChanged">"重新启动应用程序，如果你从黑暗转换到轻Actionbar主题，反之亦然！"</string>
+    <string name="faq">"常见疑问"</string>
+
+    <string name="sendFeedback">"发送反馈"</string>
+    <string name="showLyrics">"显示歌词"</string>
+    <string name="equalizer">"均衡器"</string>
+
+    <string name="UI">"UI"</string>
+    <string name="changePrimaryColor">"更改应用程序的主要颜色"</string>
+    <string name="changeAccentColor">"更改应用程序的重音颜色"</string>
+    <string name="primaryColor">"原色"</string>
+    <string name="accentColor">"主颜色"</string>
+    <string name="player">"玩家"</string>
+    <string name="setAlbumartAsBackground">"将albumart设置为正在播放背景"</string>
+    <string name="albumartAsBackgound">"Albumart作为背景"</string>
+    <string name="inversed">"反转"</string>
+    <string name="normal">"正常"</string>
+    <string name="inverseSwipeControl">"逆滑动控件"</string>
+    <string name="lyricsServer">"歌词服务器"</string>
+    <string name="privacy">"隐私"</string>
+    <string name="forImprovement">"为了改进产品"</string>
+    <string name="sendAnynomousUsageDate">"发送匿名使用数据"</string>
+    <string name="misc">"其他"</string>
+    <string name="helpInTranslation">"帮助翻译紫色球员！"</string>
+    <string name="restartApp">"广告今天删除！重新启动应用程序"</string>
+    <string name="later">"稍后"</string>
+    <string name="removeAdsForDay">"观看视频广告并获得今天的无广告体验。"</string>
+
+
+</resources>

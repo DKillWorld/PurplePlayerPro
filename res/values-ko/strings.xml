@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">"설정"</string>
+
+    <string name="accent_color_select">"악센트 색상"</string>
+    <string name="primary_color_select">"원색"</string>
+
+    <string name="select_song">"노래 선택"</string>
+    <string name="songs">"노래"</string>
+    <string name="albums">"앨범"</string>
+    <string name="artists">"Artists"</string>
+    <string name="genres">"장르"</string>
+    <string name="playlists">"재생 목록"</string>
+    <string name="settings">"설정"</string>
+    <string name="rateUs">"게임 평가하기"</string>
+    <string name="upgradeToPurplePlayerPro">"Purple Player Pro로 업그레이드하십시오."</string>
+    <string name="alreadyProUser">"이미 프로 사용자입니다!"</string>
+    <string name="info">"정보"</string>
+    <string name="ok">"확인"</string>
+    <string name="library">"도서관"</string>
+    <string name="emptyPlaylist">"빈 재생 목록 !! \ n 노래 선택"</string>
+    <string name="noEqualierFound">"이퀄라이저가 없습니다!"</string>
+    <string name="welcome">"환영해"</string>
+    <string name="oneOrMorePermissionDenied">"하나 이상의 권한이 거부되었습니다!"</string>
+
+    <string name="about">"대략"</string>
+
+    <string name="nowPlaying">"지금 재생 중"</string>
+    <string name="nothingIsPlaying">"아무것도 놀고있어 !!"</string>
+    <string name="repeatOn">"반복하십시오!"</string>
+    <string name="repeatOff">"반복 OFF !!"</string>
+    <string name="shuffleOn">"에 셔플"</string>
+    <string name="shuffleOff">"오프 셔플"</string>
+    <string name="checkingForLyrics">"가사 확인하기"</string>
+    <string name="pleaseWait">"잠시 기다려 주세요... "</string>
+    <string name="oops">"이런! "</string>
+    <string name="noLyricsFoundTryQuickLyric">"서버에서 가사를 찾을 수 없습니다. \ n QuickLyric을 사용해보십시오."</string>
+    <string name="okay">"확인 "</string>
+    <string name="lyrics">"가사"</string>
+    <string name="great">"탁월한"</string>
+    <string name="restartAppIfThemeChanged">"어둡거나 가벼운 액션 바 테마로 전환하거나 그 반대의 경우 앱을 다시 시작하십시오!"</string>
+    <string name="faq">"자주 묻는 질문"</string>
+
+    <string name="sendFeedback">"의견 보내기"</string>
+    <string name="showLyrics">"가사 표시"</string>
+    <string name="equalizer">"평형 장치"</string>
+
+    <string name="UI">"# UI"</string>
+    <string name="changePrimaryColor">"앱의 기본 색상 변경"</string>
+    <string name="changeAccentColor">"앱의 액센트 색상 변경"</string>
+    <string name="primaryColor">"원색"</string>
+    <string name="accentColor">"악센트 색상"</string>
+    <string name="player">"플레이어"</string>
+    <string name="setAlbumartAsBackground">"앨범 아트를 배경으로 설정하기"</string>
+    <string name="albumartAsBackgound">"배경으로 앨범 아트"</string>
+    <string name="inversed">"반대로"</string>
+    <string name="normal">"정상"</string>
+    <string name="inverseSwipeControl">"역 슬쩍 컨트롤"</string>
+    <string name="lyricsServer">"가사 서버"</string>
+    <string name="privacy">"공개 설정"</string>
+    <string name="forImprovement">"제품 개선을 위해"</string>
+    <string name="sendAnynomousUsageDate">"익명의 사용 데이터 보내기"</string>
+    <string name="misc">"기타"</string>
+    <string name="helpInTranslation">"퍼플 플레이어 번역에 대한 도움!"</string>
+    <string name="restartApp">"오늘 삭제 된 광고! 앱을 다시 시작하십시오."</string>
+    <string name="later">"나중에 하기"</string>
+    <string name="removeAdsForDay">"오늘은 동영상 광고를보고 광고없는 경험을하십시오."</string>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/settingsDetail" android:title="@string/action_settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:orderInCategory="400"/>
+
+    <item android:id="@+id/equilizerDetail"
+        android:title="@string/equalizer"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_equalizer_white_24dp"/>
+
+    <!--<item android:id="@+id/share_action_provider"-->
+        <!--android:title="Share"-->
+        <!--android:orderInCategory="200"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>-->
+
+</menu>
