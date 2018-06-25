@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <item android:state_pressed="true"
+        android:drawable="@drawable/background_button_touch">
+    </item>
+
+    <item android:drawable="@drawable/background_button_default">
+    </item>
+
+</selector>
