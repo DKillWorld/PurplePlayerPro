@@ -1,3 +1,5 @@
+#Note: The repository is outdated but holds a strong reference to Purple Player Pro and still usable.
+
 # PurplePlayerPro
 Purple Player Pro
 
